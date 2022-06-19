@@ -1,0 +1,22 @@
+.contact{
+    width: 400px;
+    margin: auto;
+    background-color: #fdd7a9;
+    border-radius: 30px;
+    padding: 20px;
+    display: flex;
+    font-family: 'Courier New', Courier, monospace;
+    flex-direction: row;
+    margin-top: 10px;
+}
+.contact img{
+    border-radius: 50px;
+    margin-right: 20px;
+    width: 100px;
+} 
+.data {
+    text-align: center;
+    margin: auto;
+    line-height: 10px;
+    
+}
