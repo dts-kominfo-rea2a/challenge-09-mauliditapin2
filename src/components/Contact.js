@@ -6,7 +6,7 @@ const Contact = ({name, phone, email,photo}) => {
     return (
         <div className='contact'>
             <div className='image'>
-                <img src={photo}/>
+                <img src={photo} alt={name} />
             </div>
             <div className='data'>
             <p><b>{name} </b></p>

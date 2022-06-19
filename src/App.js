@@ -21,7 +21,6 @@ const App = ({ name, phone, email, photo }) => {
               email={data.email}
               photo={data.photo}
             />
-
           </div>
         );
       })}
