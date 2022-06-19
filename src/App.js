@@ -12,7 +12,8 @@ const App = ({ name, phone, email, photo }) => {
       style={{ backgroundColor: "#fcd9d9", padding: "20px" }}
     >
       <Header />
-      {contacts.map((data, key) => {
+
+      {/* {contacts.map((data, key) => {
         return (
           <div key={key}>
             <Contact
@@ -23,7 +24,14 @@ const App = ({ name, phone, email, photo }) => {
             />
           </div>
         );
-      })}
+      })} */}
+      
+      <Contact data={contacts[0]} />
+      <Contact data={contacts[1]} />
+      <Contact data={contacts[2]} />
+      <Contact data={contacts[3]} />
+      <Contact data={contacts[4]} />
+      <Contact data={contacts[5]} />
     </div>
   );
 };
